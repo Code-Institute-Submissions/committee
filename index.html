@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>AI CLUB for gender minorities</title>
+  <title>The Committee for Sustainable Depopulation</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/nav.css" rel="stylesheet">
+  <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/members.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,9 +20,61 @@
 
 
 <header>
+<!-- photo carousel -->
+<div class="container">
+  <br>
+
+<div id="photoCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#photoCarousel" data-slide-to="0"></li>
+    <li data-target="#photoCarousel" data-slide-to="1"></li>
+    <li data-target="#photoCarousel" data-slide-to="2"></li>
+    <li data-target="#photoCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/1.jpg" alt="Band photo" width="1000" height="700">
+      <div class="carousel-header">
+        <h3>THE COMMITTEE</h3>
+      </div>
+      <div class="carousel-caption">
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/2.jpg" alt="Band photo" width="1000" height="700">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p>History is written<br>by the Victors...</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/3.jpg" alt="Band photo" width="1000" height="700">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p>We are<br>the Voice of the Dead...</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/4.jpg" alt="Band photo" width="1000" height="700">
+      <div class="carousel-caption">
+        <h3></h3>
+        <p>Hear the<br>Anthems of the Executioners...</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- END OF photo carousel -->
+
 <!-- <div style="margin-bottom: 400px"> -->
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+<nav class="navbar navbar-default" id="stickynav">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -31,16 +86,17 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About us</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">The band</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#blog">Albums</a></li>
+        <li><a href="#resources">Lyrics</a></li>
+        <li><a href="#contact">Concerts</a></li>
+
       </ul>
     </div>
   </div>
 </nav>
-</div>
+
 </header>
 
 <!-- MAIN CONTENT!!! -->
@@ -50,19 +106,11 @@
 <aside id="featured">
   <div class="row">
     <div class="col-lg-12">
-      <h2 class="">
-      <h2 class="exo2 orangeish1">Here we will put featured events, or anything we want to draw immediate attention.</h2>
-    </h2>
-    </div>
-    <div class="col-sm-4"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div>
-    <div class="col-sm-4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div>
-    <div class="col-sm-4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div>
+      <h2 class="">Here we will put featured events, or anything we want to draw immediate attention.</h2>
+    </h2></div>
+    <div class="col-sm-4"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4><p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    <div class="col-sm-4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    <div class="col-sm-4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
 
   </div>
 </aside>
@@ -71,20 +119,65 @@
 
 <div class="row">
 
-<div class="col-md-6"><h2 class="exo2">About us</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+<div class="col-md-6"><h2 class="Encient">About us</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
 <div class="col-md-6"><h3>Hello photo!</h3><img src=photos/placeholder.png style="float:left; padding-right:15px" />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 
 </div>
 <hr>
 </section>
 
-<section id="events">
+<section id="members">
 
-  <div class="row">
+<div class="row" style="border: black solid 1px">
 
-  <div class="col-md-6"><h2>Events</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-  <div class="col-md-6"><h3>Hello photo!</h3><img src=photos/placeholder.png /></div>
-
+    <h2 class="Encient">MEMBERS</h2>
+    <div class="spacer" style="text-align: center"></div>
+        <div class="col-sm-3" style="border: solid red 1px">
+          <h3>Igor Mortis</h3><br>
+          <a href="#person1" data-toggle="collapse">
+            <img src="images/igor.jpg" class="imgborder" alt="Igor" width="250" height="250">
+            <!-- <br><span class="glyphicon glyphicon-chevron-down"></span> -->
+          </a>
+          <div id="person1" class="collapse">
+            <h3>The Conspirator</h3>
+            <h4>Guitar and lead vocals</h4>
+            <p>Expertise: History, sociology and propaganda. Think tanks and Geo-political processes.</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <h3>William Auruman</h3><br>
+          <a href="#person2" data-toggle="collapse">
+            <img src="images/william.jpg" class=" imgborder" alt="William" width="250" height="250">
+          </a>
+          <div id="person2" class="collapse">
+            <h3>The Charter</h3>
+            <h4>drums and percussion</h4>
+            <p>Expertise: Finance, credit system and structuring. Management tactics and strategic planning.</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <h3>Aristo Crassade</h3><br>
+          <a href="#person3" data-toggle="collapse">
+            <img src="images/aristo.jpg" class="imgborder" alt="Aristo" width="250" height="250">
+          </a>
+          <div id="person3" class="collapse">
+            <h3>The Trigger</h3>
+            <h4>guitar and vocals</h4>
+            <p>Expertise: Military and police structuring. Intelligence gathering and covert operations.</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <h3>Marc Abre</h3><br>
+          <a href="#person4" data-toggle="collapse">
+            <img src="images/marc.jpg" class="imgborder" alt="Marc" width="250" height="250">
+          </a>
+          <div id="person4" class="collapse">
+            <h3>The Mediator</h3>
+            <h4>bass and vocals</h4>
+            <p>Expertise: Theology, religions and cults. Mass hypnosis and subconscious influence.</p>
+          </div>
+        </div>
+      </div>
   </div>
 <hr>
 </section>
@@ -108,7 +201,7 @@ FORM
 <!-- END OF MAIN CONTENT -->
 
 <footer>
-  <p>footer footer footer</p>
+  <p>footer footer footer</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </footer>
 
 
