@@ -1,9 +1,7 @@
-/* PERSONS STYLING */
 section #members {
   height:auto;
 }
 #members .col-sm-3 h3, a {
-  /* font-weight: bold; */
   display: block;
   text-align: center;
   margin-left: auto;
@@ -22,13 +20,6 @@ section #members {
 .imgborder:hover {
     border-color: #d6d6d6;
     opacity: 1;
-
-}
-.imgborder:active:focus {
-    border-color: #1c5e80;
-}
-.imgborder:focus {
-    border-color: #1c5e80;
 }
 .collapse.in {
     text-align: center;
@@ -39,7 +30,4 @@ section #members {
 #members .col-sm-3 img {
     display: block;
     margin-left: 10%;
-    /* margin-right: 50%; */
-    /*width: 40%;*/
 }
-/* //PERSONS */

@@ -1,6 +1,6 @@
 
 .carousel-header {
-  font-family: "Encient";
+  font-family: "Encient", "Times New Roman", Times, serif;
   position: absolute;
   top: 15%;
   left:0;
@@ -28,15 +28,8 @@
 .carousel-caption h3 {
   top:20%;
   color: #fff !important;
-  font-family: "Encient";
+  font-family: "Encient", "Times New Roman", Times, serif;
   font-size: 8em;
-  text-align: center;
-  animation: textAnimation 15s;
-}
-.carousel-caption p {
-  font-size: 6em;
-  color: #fff !important;
-  font-family: "Encient";
   text-align: center;
   animation: textAnimation 15s;
 }
@@ -80,7 +73,6 @@
   0% { opacity: 0; transform: scale(2);}
   50% {opacity: 1; transform: scale(1);}
   100% {opacity: 1}
-
 }
 
 @keyframes textAnimation {
