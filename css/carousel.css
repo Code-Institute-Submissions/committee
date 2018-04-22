@@ -1,11 +1,12 @@
 
 .carousel-header {
+  font-family: "Encient";
   position: absolute;
-  top: 20%;
+  top: 15%;
   left:0;
   right: 0;
   z-index: -1;
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   color: white;
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
@@ -13,7 +14,7 @@
 }
 
 .carousel-inner img {
-  width: 80%;
+  width: 70%;
   margin: auto;
   animation: imageAnimation 35s;
 }
@@ -23,12 +24,9 @@
 }
 .carousel-header h3 {
   color: #fff !important;
-  font-family: "Encient";
-  font-size: 2em;
-  /* text-align: center; */
-  animation: textAnimation 15s;
 }
 .carousel-caption h3 {
+  top:20%;
   color: #fff !important;
   font-family: "Encient";
   font-size: 8em;

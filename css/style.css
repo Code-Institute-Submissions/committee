@@ -1,1 +1,10 @@
+.encient {
+  font-family: "Encient";
+}
 
+h3 {
+  font-family: "Encient";
+  font-size: 2.8em;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
