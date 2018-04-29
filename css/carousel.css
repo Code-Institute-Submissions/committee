@@ -9,7 +9,6 @@
   font-size: 6em;
   text-align: center;
   color: white;
-
   animation: textAnimation 15s;
 }
 
@@ -18,13 +17,16 @@
   margin: auto;
   animation: imageAnimation 35s;
 }
+
 .carousel-control.right, .carousel-control.left {
   background-image: none !important;
   color: black;
 }
+
 .carousel-header h3 {
   color: #fff !important;
 }
+
 .carousel-caption h3 {
   top:20%;
   color: #fff !important;
@@ -34,7 +36,6 @@
   animation: textAnimation 15s;
 }
 
-/* hide less inherited indicators */
 .carousel-indicators li {
   opacity: 0
 }
@@ -44,29 +45,28 @@
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
-    .carousel-fade .carousel-inner > .item.next,
-    .carousel-fade .carousel-inner > .item.active.right {
-      opacity: 0;
-      transition: opacity 1s ease-in;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.prev,
-    .carousel-fade .carousel-inner > .item.active.left {
-      opacity: 0;
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-
-    }
-    .carousel-fade .carousel-inner > .item.next.left,
-    .carousel-fade .carousel-inner > .item.prev.right,
-    .carousel-fade .carousel-inner > .item.active {
-      opacity: 1;
-      transition: opacity 1s ease-out;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
+  }
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 @keyframes imageAnimation {

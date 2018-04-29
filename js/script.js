@@ -32,9 +32,7 @@ $(function() {
     $(this).parent().children(".slideToggle").slideToggle();
     });
 
-});
-
-$(document).ready(function(){
+    // home button
     $(window).scroll(function(){
         if ($(this).scrollTop() > 90) {
             $('#homeBtn').fadeIn();
