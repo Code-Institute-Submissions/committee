@@ -6,6 +6,9 @@ body{
   background-color: #000;
   font-family: "Times New Roman", Times, serif;
 }
+p {
+  font-size: 1.2em;
+}
 h2, h3, h4 {
   font-family: "Encient";
   color: #777;
@@ -15,6 +18,13 @@ h2, h3, h4 {
 h3 {
   font-size: 2.7em;
 }
+/* h3:hover {
+  color: #920c0b;
+}
+h3 p:hover {
+  color: #920c0b;
+} */
+
 
 h2 {
   font-size: 3.5em;
@@ -25,67 +35,55 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
 hr {
   margin-top: 15px;
   margin-bottom: 15px;
   border: .5px solid #777;
 }
-@media screen and (max-width: 900px){
-  nav {
-    width: 100%;
-    height: 15%
-  }
-	ul {
-		flex-flow: column;
-		align-items:center;
-	}
-	li {
-		font-size: 1em;
-	}
-  .dropdown-menu li a {
-    color: #000 !important;
-    background-color: #8bc1d0 !important;
-    text-align: left;
-    font-size: 1em !important;
-  }
-  .carousel-inner img {
-    width: 100%;
-  }
-  .carousel-header h3 {
-    top: 10%;
-    font-size: 1em ;
-  }
 
-  .padded-small {
-  padding: 0 10% 10% 15%;
-  }
+#about img {
+  float:left;
+  padding-right: 15px;
+  width: 150px;
+  opacity: .8;
+}
 
+.col-sm-4:hover h3 {
+  color: #920c0b;
+}
+.col-sm-4:hover p {
+  color: #920c0b;
+}
 
+.background-image {
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 
-@media screen and (max-width: 600px){
-  nav {
-    width: 100%;
-    height: 10%
-  }
-  .navbar-brand {
-    display:none;
-  }
-	ul {
-		flex-flow: column;
-		align-items:center;
-	}
-	li {
-		font-size: 1em;
-	}
-
-  .carousel-header h3 {
-    font-size: 1em ;
-  }
-
-  .carousel-caption p {
-    font-size: 2em ;
-  }
-  .padded-small {
-    padding: 0 10% 10% 15%;
-  }
+/* #about {
+  background-image: url(../images/6b.jpg);
+} */
+#membersbg {
+  background-image: url(../images/5b.jpg);
+}
+#albumsbg {
+  background-image: url(../images/4b.jpg);
+}
+#livebg {
+  background-image: url(../images/3b.jpg);
+}
+#contactbg {
+  background-image: url(../images/2b.jpg);
+}
+.spacer {
+  height: 50px;
+  background-color: #840d0c;
+}
+.slideToggle {
+    padding: 50px;
+    display: none;
 }

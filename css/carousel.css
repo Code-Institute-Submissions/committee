@@ -2,7 +2,7 @@
 .carousel-header {
   font-family: "Encient", "Times New Roman", Times, serif;
   position: absolute;
-  top: 15%;
+  /* top: 15%; */
   left:0;
   right: 0;
   z-index: -1;

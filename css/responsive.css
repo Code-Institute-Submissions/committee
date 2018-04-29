@@ -1,0 +1,66 @@
+@media screen and (max-width: 900px){
+  nav {
+    width: 100%;
+    height: 15%
+  }
+	ul {
+		flex-flow: column;
+		align-items:center;
+	}
+	li {
+		font-size: 1em;
+	}
+  h2 {
+    font-size: 2em;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+    background-color: #8bc1d0 !important;
+    text-align: left;
+    font-size: 1em !important;
+  }
+  .carousel-inner img {
+    width: 100%;
+  }
+  .carousel-header {
+    top: 25%;
+  }
+  .carousel-header h3 {
+
+    font-size: 1em ;
+  }
+
+  .padded-small {
+  padding: 0 10% 10% 15%;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  nav {
+    width: 100%;
+    height: 10%
+  }
+  .navbar-brand {
+    display:none;
+  }
+	ul {
+		flex-flow: column;
+		align-items:center;
+	}
+	li {
+		font-size: 1em;
+	}
+
+  .carousel-header {
+    top: 15%;
+  }
+
+.carousel-header h3 {
+  font-size: .8em ;
+}
+  .padded-small {
+    padding: 0 10% 10% 15%;
+  }
+
+}

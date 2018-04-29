@@ -1,15 +1,20 @@
-section #members {
+/* section #members {
   height:auto;
-}
+} */
+
 #members .col-sm-3 h3, a {
   display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
 
+#members img {
+  width: 250;
+  height: 250;
 }
 .imgborder {
-    border: 10px solid black;
+    border: 5px solid black;
     margin-bottom: 25px;
     width: 80%;
     height: 80%;
@@ -18,8 +23,7 @@ section #members {
     opacity: .7
 }
 .imgborder:hover {
-    border-color: #d6d6d6;
-    opacity: 1;
+
 }
 .collapse.in {
     text-align: center;
@@ -30,4 +34,16 @@ section #members {
 #members .col-sm-3 img {
     display: block;
     margin-left: 10%;
+}
+
+.hlight:hover .member {
+  opacity: 0.5;
+  cursor: pointer;
+
+}
+
+.hlight:hover .imgborder {
+  opacity: 1;
+  box-shadow: 0 0 5px #920c0b, 0 0 10px #920c0b, 0 0 15px #920c0b, 0 0 20px #920c0b, 0 0 25px #920c0b;
+
 }
