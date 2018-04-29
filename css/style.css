@@ -1,0 +1,89 @@
+.encient {
+  font-family: "Encient", "Times New Roman", Times, serif;
+  font-size: 1em; /* 16pt */
+}
+body{
+  background-color: #000;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  font-size: 1.2em;
+}
+h2, h3, h4 {
+  font-family: "Encient";
+  color: #777;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+h3 {
+  font-size: 2.7em;
+}
+/* h3:hover {
+  color: #920c0b;
+}
+h3 p:hover {
+  color: #920c0b;
+} */
+
+
+h2 {
+  font-size: 3.5em;
+}
+.center {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: .5px solid #777;
+}
+
+#about img {
+  float:left;
+  padding-right: 15px;
+  width: 150px;
+  opacity: .8;
+}
+
+.col-sm-4:hover h3 {
+  color: #920c0b;
+}
+.col-sm-4:hover p {
+  color: #920c0b;
+}
+
+.background-image {
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+/* #about {
+  background-image: url(../images/6b.jpg);
+} */
+#membersbg {
+  background-image: url(../images/5b.jpg);
+}
+#albumsbg {
+  background-image: url(../images/4b.jpg);
+}
+#livebg {
+  background-image: url(../images/3b.jpg);
+}
+#contactbg {
+  background-image: url(../images/2b.jpg);
+}
+.spacer {
+  height: 50px;
+  background-color: #840d0c;
+}
+.slideToggle {
+    padding: 50px;
+    display: none;
+}

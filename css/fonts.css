@@ -1,0 +1,9 @@
+
+@font-face {
+  font-family:"Encient";
+  src:url("fonts/Germgoth.eot?") format("eot"),
+      url("fonts/Germgoth.woff") format("woff"),
+      url("fonts/Germgoth.ttf") format("truetype"),
+      url("fonts/Germgoth.svg#EncientGermanGothic") format("svg");
+  font-weight:normal;
+  font-style:normal;}
