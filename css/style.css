@@ -43,11 +43,18 @@ hr {
   border: .5px solid #920c0b;
 }
 
-#about img {
+#about .col-sm-4 img {
   float:left;
-  padding-right: 15px;
+  padding-right: 5px;
   width: 150px;
   opacity: .8;
+}
+.seal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 20px 0px;
+    width: 40%;
 }
 
 .col-sm-4:hover h3 {
@@ -95,7 +102,7 @@ hr {
 #homeBtn {
     position:fixed;
     display: none;
-    right:10px;
+    right: auto;
     bottom:10px;
     width:50px;
     height:50px;
@@ -114,7 +121,7 @@ hr {
 #homeBtn:hover {
     background-color:#920c0b;
     color: #fff;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f5f5f5, 0 0 30px #f5f5f5, 0 0 35px #f5f5f5; */
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f5f5f5, 0 0 30px #f5f5f5, 0 0 35px #f5f5f5;
     transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1); /* IE 9 */
     -webkit-transform: scale(1.1, 1.1); /* Safari */
