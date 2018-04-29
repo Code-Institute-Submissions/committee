@@ -7,11 +7,21 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <link href="css/nav.css" rel="stylesheet">
-  <link href="css/carousel.css" rel="stylesheet">
-  <link href="css/fonts.css" rel="stylesheet">
-  <link href="css/members.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet" type="text/css">
+  <link href="css/carousel.css" rel="stylesheet" type="text/css">
+  <link href="css/fonts.css" rel="stylesheet" type="text/css">
+  <link href="css/members.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+  <!-- Insert to your webpage before the </head> -->
+  <script src="audio/jquery.js"></script>
+  <script src="audio/amazingaudioplayer.js"></script>
+  <link rel="stylesheet" type="text/css" href="audio/initaudioplayer-1.css">
+  <script src="audio/initaudioplayer-1.js"></script>
+  <!-- End of head section HTML codes -->
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -73,7 +83,7 @@
         <span class="icon-bar"></span>
 
       </button>
-      <a class="navbar-brand" href="#home"><img src="images/logo1.jpg" alt="small band logo" width="30px"/></a>
+      <a class="navbar-brand" href="#home"><img src="images/logo2.gif" alt="small band logo" width="30px"/></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -99,7 +109,8 @@
     <div class="col-lg-12">
     <h2 class="center">The Committee for Sustainable Depopulation</h2>
     </div>
-    <div class"col-lg-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class"col-lg-12">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -109,7 +120,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     </div>
     <div class="col-sm-4">
       <h3>The Band</h3>
-      <img src="images/logo3.jpg" width="150px" alt="placeholder" style="float:left; padding-right:15px" />
+      <img src="images/logo3.jpg" width="150px" alt="placeholder" style="float:left; padding-right:15px; opacity: .8" />
       <p>The Committee is a 5-soul strong collective of international members who dedicate themselves to the art of black / doom metal. The Committee does not conform or support ANY political ideology.  Some of the listeners find the topics of band very controversial, however rest assured! The aim of the band is to present historic facts in a new light and from a new point of view.
          The Committee is a collaboration. The band works with guest artists and vocalists in order to expand the boundaries of Metal.
        </p></div>
@@ -130,14 +141,18 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <div class="background-image" id="membersbg"></div>
 <section id="members">
+  <div class="spacer"></div>
   <div class="row">
   <h2 class="Encient">MEMBERS</h2>
+  <h3 class="center">History is written by the victors.  We are the voice of the dead!</h3>
   <div class="col-sm-3 center">
-    <h3>Igor Mortis</h3><br>
-      <img src="images/igor.jpg" class="imgborder" alt="Igor" width="250" height="250">
+    <div class="slider"><h3>Igor Mortis</h3><br>
+      <img src="images/igor.jpg" class="imgborder" alt="Igor" width="250" height="250"></div>
+      <div class="slide">
       <h3>The Conspirator</h3>
       <h4>Guitar and lead vocals</h4>
       <p>Expertise: History, sociology and propaganda. Think tanks and Geo-political processes.</p>
+    </div>
   </div>
 
   <div class="col-sm-3 center">
@@ -169,13 +184,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <div class="background-image" id="albumsbg"></div>
 <section id="albums">
+  <div class="spacer"></div>
   <div class="row">
   <h2 class="Encient">ALBUMS</h2>
 
   <div class="col-md-4 center"><h3>Memorandum Occultus</h3>
     <img src="images/memocc.jpg" alt="Memorandum Occultus" width="300" />
     <h4>Weapons of War</h4>
-    <audio controls="controls" preload="none" data-autostart="no" data-artist="The Committee" data-track="Weapons of War">
+    <audio class="audio" controls="controls" preload="none" data-autostart="no" data-artist="The Committee" data-track="Weapons of War">
       <source src="http://thecommitteeband.weebly.com/uploads/2/2/0/3/22035872/01_-_dead_diplomacy_-_weapons_of_war.mp3" type="audio/mp3">
       Your browser does not support the audio element.
     </audio>
@@ -188,6 +204,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
       Your browser does not support the audio element.
     </audio>
   </div>
+
   <div class="col-md-4 center"><h3>Holodomor</h3>
     <img src="images/hol.jpg" alt="Holodomor" width="300"/>
     <h4>Katherine's Chant</h4>
@@ -196,12 +213,24 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
       Your browser does not support the audio element.
     </audio>
   </div>
+
   </div><hr>
 </section>
 
 <div class="background-image" id="livebg"></div>
 <section id="live">
+  <div class="spacer"></div>
   <div class="row">
+    <h2 class="Encient">Upcoming events</h2>
+    <div class="col-md-3 center">
+    <h3>Dark Troll Festival IX</h3>
+    </div>
+    <div class="col-md-3 center">
+    <h3>Dark Troll Festival IX</h3>
+    </div>
+    <div class="col-md-3 center">
+    <h3>Dark Troll Festival IX</h3>
+    </div>
     <iframe width="100%" height="720"src="https://www.youtube.com/embed/eHSS0Qv-wuI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 <hr>
@@ -209,7 +238,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <div class="background-image" id="contactbg"></div>
 <section id="contact">
-
+  <div class="spacer"></div>
   <div class="row">
   <div class="col-md-6"><h2>Contact</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
   <div class="col-md-6"><h2>Contact form placeholder</h2></div>
@@ -229,6 +258,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 <script src='http://code.jquery.com/jquery.min.js'></script>
 <script src="js/nav.js"></script>
 <script = src="js/script.js"></script>
+<script src="audio/jquery.js"></script>
+<script src="audio/amazingaudioplayer.js"></script>
+<script src="audio/initaudioplayer-1.js"></script>
 
 </body>
 </html>
