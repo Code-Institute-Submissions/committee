@@ -7,7 +7,7 @@ $(function() {
       $(this).stop(true).fadeTo(300, 1); // duration, opacity
     }, function() {
         // on mouseout, fade current element
-      $(this).stop(true).fadeTo(300, .7);
+      $(this).stop(true).fadeTo(300, .8);
     });
 
     // slider for lyrics
@@ -35,22 +35,13 @@ $(function() {
             $('#homeBtn').fadeOut();
         }
     });
-    $('#homeBtn').on('click', function() {
-      evnt.preventDefault();
-      evnt.stopPropagation();
+
+    //home button smooth scroll to top
+    $('#homeBtn').on('click', function(event) {
+      event.preventDefault();
+      event.stopPropagation();
         webpage.stop().animate({
           scrollTop: 0
         }, 2000, "easeInOutQuint");
     });
-
-
-    $(window).on('wheel', function() {
-      evnt.stopPropagation();
-      evnt.preventDefault();
-      var scrollAmt = evnt.originalEvent.wheelDelta > 0 ? '-=350' : '+=350';
-      webpage.stop().animate({
-        scrollTop:scrollAmt
-      },500,"linear");
-    });
-
 });

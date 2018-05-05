@@ -7,6 +7,7 @@ body{
   background-color: #000;
   font-family: "Times New Roman", Times, serif;
   color: #fff;
+  /* padding: 0px; */
 }
 
 p {
@@ -34,6 +35,9 @@ h3 {
   margin-right: auto;
 }
 
+.high {
+  height: 100vh;
+}
 hr {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -48,11 +52,12 @@ hr {
 }
 
 .seal {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 0px 20px 0px;
+  padding: 20px 0px 60px 0px;
   width: 40%;
+}
+.band {
+  padding: 20px 0;
+  width: 50%;
 }
 
 .col-sm-4:hover h3 {
@@ -68,7 +73,7 @@ hr {
   background-size: auto 100%;
   background-position: 50% 0%;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 55vh;
 }
 
 #membersbg {
@@ -83,7 +88,9 @@ hr {
 #contactbg {
   background-image: url(../images/2b.jpg);
 }
-
+#bottombg {
+  background-image: url(../images/6b.jpg);
+}
 .spacer {
   height: 50px;
   background-color: rgba(0, 0, 0, 0.6);

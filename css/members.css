@@ -9,6 +9,10 @@
   width: 250px;
   height: 250px;
 }
+#members img:first-child {
+  width: auto;
+  height: auto;
+}
 
 .imgborder {
   border: 5px solid black;
