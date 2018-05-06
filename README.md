@@ -16,7 +16,7 @@ Prior to using the imagery, I have obtained written permission from The Committe
 All photos, songs and lyrics are property of The Committee, and can be found here: http://thecommitteeband.weebly.com
 
 
-Technologies used:
+<h2>Technologies used:</h2>
 HTML/HTML5
 CSS, Bootstrap
 JS/JQuery
