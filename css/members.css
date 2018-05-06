@@ -6,8 +6,8 @@
 }
 
 #members img {
-  width: 250px;
-  height: 250px;
+  width: 95%;
+  height: 95%;
 }
 #members img:first-child {
   width: 90%;
@@ -21,31 +21,19 @@
   height: 80%;
 }
 
-.imgborder > img {
-  opacity: .7
-}
-
 .collapse.in {
   text-align: center;
   font-size: 2rem;
   animation-name: textAnimation;
 }
 
-#members .col-sm-3 img {
-  display: block;
-  margin-left: 10%;
-}
-
-.hlight:hover .member {
-  opacity: 1;
-}
-
 .slideToggle h3,h4,p {
   color: #fff;
 }
 
-.hlight:hover .imgborder {
-  opacity: 1;
-  transform: scale(1.2);
-  box-shadow: 0 0 5px #920c0b, 0 0 10px #920c0b, 0 0 15px #920c0b, 0 0 20px #920c0b, 0 0 25px #920c0b;
+@media (hover:hover) {
+  .hlight:hover .imgborder {
+    /* opacity: 1; */
+    transform: scale(1.2);
+    box-shadow: 0 0 5px #920c0b, 0 0 10px #920c0b, 0 0 15px #920c0b, 0 0 20px #920c0b, 0 0 25px #920c0b;
 }

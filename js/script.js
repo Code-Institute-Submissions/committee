@@ -10,6 +10,11 @@ $(function() {
       $(this).stop(true).fadeTo(300, .8);
     });
 
+    // parralax
+    $(function() {
+       $.stellar();
+    });
+
     // slider for lyrics
     // hide .lyrics elements
     $(".lyrics").hide('slow');
@@ -22,6 +27,7 @@ $(function() {
     // slider for lyrics
     // hide .lyrics elements
     $(".slideToggle").hide('slow');
+    // $(".slider").hover(function() { -- changing to click, due to hover issues on touch devices
     $(".slider").hover(function() {
     // toggle child elements of current object
     $(this).parent().children(".slideToggle").slideToggle();

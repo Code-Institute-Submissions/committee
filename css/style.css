@@ -41,28 +41,24 @@ hr {
   border: .5px solid #920c0b;
 }
 
-#about .col-sm-4 img {
+#about img {
   float:left;
-  padding-right: 5px;
-  width: 150px;
-  opacity: .8;
+  padding: 0 5px 0 0px;
+  width: 25%;
 }
 
 .seal {
   padding: 20px 0px 60px 0px;
-  width: 40%;
+  width: 40% !important;
+  float: none !important;
 }
 .band {
   padding: 20px 0;
   width: 10%;
 }
 
-.col-sm-4:hover h3 {
-  color: #920c0b;
-}
-
-.col-sm-4:hover p {
-  color: #920c0b;
+.smscreen {
+  display: none !important;
 }
 
 .background-image {
@@ -94,8 +90,7 @@ hr {
 }
 
 .slideToggle {
-    padding: 50px;
-    display: none;
+  display: none;
 }
 
 a .fa {
@@ -105,10 +100,14 @@ a .fa {
 }
 
 #live img {
-  width: 300px;
+  width: 80%;
   border: 2px solid #000;
 }
 
+#live a {
+    color: #920c0b !important;
+    text-decoration: none;
+}
 /* #home button */
 #homeBtn {
   position:fixed;
