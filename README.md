@@ -1,7 +1,14 @@
 # committee
 ![alt text](https://github.com/sadfaerie/committee/blob/master/images/project.png)
 
-A band tribute project.
+<h1>A band tribute project.</h1>
+
+<h2>The Purpose:</h2>
+
+Build a static (front-end only) website for a band: The Committee. 
+The design is to match the band image: dark, gloom and raw. 
+The band's fans listen to metal music and prefer dark themes.
+
 Visitors should be able to:
 - get information about the band and its members
 - listen to audio files
@@ -9,8 +16,6 @@ Visitors should be able to:
 - get information about future events
 - contact the band via contact form and via links to social media sites. 
 
-The design is to match the band image: dark, gloom and raw. 
-The band's fans listen to metal music and prefer dark themes.
 
 Prior to using the imagery, I have obtained written permission from The Committee - band. 
 All photos, songs and lyrics are property of The Committee, and can be found here: http://thecommitteeband.weebly.com
@@ -21,7 +26,7 @@ HTML/HTML5
 CSS, Bootstrap
 JS/JQuery
 
-Testing:
+<h2>Testing:</h2>
 Testing was done using Apache2 server running on Linux Mint.
 Devices used: desktop devices: 13", 15", 21"
 Touch devices: 
@@ -38,7 +43,7 @@ iPhone 5SE, iOS 10
 - css @media property was used extensively to achieve consistens layout when displaying the project on various devices
 
 
-Credits:
+<h2>Credits:</h2>
 https://codeinstitute.net
 https://sitepoint.com (JQuery tutorials: fade and parallax.js)
 https://www.w3schools.com (Less tutorial)
