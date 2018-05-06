@@ -5,26 +5,26 @@
 
 <h2>The Purpose:</h2>
 
-Build a static (front-end only) website for a band: The Committee. 
+<p>Build a static (front-end only) website for a band: The Committee. 
 The design is to match the band image: dark, gloom and raw. 
-The band's fans listen to metal music and prefer dark themes.
+The band's fans listen to metal music and prefer dark themes.</p>
 
-Visitors should be able to:
+<p>Visitors should be able to:
 - get information about the band and its members
 - listen to audio files
 - watch music videos 
 - get information about future events
-- contact the band via contact form and via links to social media sites. 
+- contact the band via contact form and via links to social media sites. </p>
 
 
-Prior to using the imagery, I have obtained written permission from The Committee - band. 
-All photos, songs and lyrics are property of The Committee, and can be found here: http://thecommitteeband.weebly.com
+<p>Prior to using the imagery, I have obtained written permission from The Committee - band. 
+All photos, songs and lyrics are property of The Committee, and can be found here: http://thecommitteeband.weebly.com</p>
 
 
 <h2>Technologies used:</h2>
-HTML/HTML5
-CSS, Bootstrap
-JS/JQuery
+HTML/HTML5<br>
+CSS, Bootstrap<br>
+JS/JQuery<br>
 
 <h2>Testing:</h2>
 Testing was done using Apache2 server running on Linux Mint.
