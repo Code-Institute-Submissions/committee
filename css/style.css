@@ -20,7 +20,7 @@ h2, h3, h4 {
 }
 
 h2 {
-  font-size: 3.5em;
+  font-size: 4em;
   color: #920c0b;
 }
 
@@ -35,9 +35,6 @@ h3 {
   margin-right: auto;
 }
 
-.high {
-  height: 100vh;
-}
 hr {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -57,7 +54,7 @@ hr {
 }
 .band {
   padding: 20px 0;
-  width: 50%;
+  width: 10%;
 }
 
 .col-sm-4:hover h3 {

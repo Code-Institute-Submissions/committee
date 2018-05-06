@@ -8,7 +8,16 @@
   z-index: -1;
   font-size: 6em;
   text-align: center;
-  color: white;
+  color: #fff;
+  animation: textAnimation 15s;
+}
+.carousel-caption {
+  top:20%;
+  padding-top: 0px;
+  color: #fff !important;
+  font-family: "Encient", "Times New Roman", Times, serif;
+  font-size: 4em;
+  text-align: center;
   animation: textAnimation 15s;
 }
 
@@ -23,17 +32,8 @@
   color: black;
 }
 
-.carousel-header h3 {
-  color: #fff !important;
-}
-
-.carousel-caption h3 {
-  top:20%;
-  color: #fff !important;
-  font-family: "Encient", "Times New Roman", Times, serif;
-  font-size: 8em;
-  text-align: center;
-  animation: textAnimation 15s;
+.captionsm {
+  display: none;
 }
 
 .carousel-indicators li {
