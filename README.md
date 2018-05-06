@@ -27,26 +27,26 @@ CSS, Bootstrap<br>
 JS/JQuery<br>
 
 <h2>Testing:</h2>
-Testing was done using Apache2 server running on Linux Mint.
-Devices used: desktop devices: 13", 15", 21"
-Touch devices: 
-Xiaomi MI, Android 7.1.2
-iPad mini 2, iOS 11.3
-Google Pixel 1, Android 8.1.0
-iPhone 5SE, iOS 10
-
-- :hover used to highlight band members photos proved unusable on touch devices, and was addressed by adding: 
-  @media (hover:hover) {
+Testing was done using Apache2 server running on Linux Mint.<br>
+Devices used: desktop devices: 13", 15", 21"<br>
+Touch devices: <br>
+Xiaomi MI, Android 7.1.2<br>
+iPad mini 2, iOS 11.3<br>
+Google Pixel 1, Android 8.1.0<br>
+iPhone 5SE, iOS 10<br>
+<br>
+- :hover used to highlight band members photos proved unusable on touch devices, and was addressed by adding: <br>
+  <code>@media (hover:hover) {
   .................
-  }
-
-- css @media property was used extensively to achieve consistens layout when displaying the project on various devices
+  }</code>
+<br>
+- css @media property was used extensively to achieve consistens layout when displaying the project on various devices<br>
 
 
 <h2>Credits:</h2>
-https://codeinstitute.net
-https://sitepoint.com (JQuery tutorials: fade and parallax.js)
-https://www.w3schools.com (Less tutorial)
-https://stackoverflow.com (used during testing to troubleshoot encountered problems)
-https://validator.w3.org/ (used for validation and troubleshooting)
+https://codeinstitute.net<br>
+https://sitepoint.com (JQuery tutorials: fade and parallax.js)<br>
+https://www.w3schools.com (Less tutorial)<br>
+https://stackoverflow.com (used during testing to troubleshoot encountered problems)<br>
+https://validator.w3.org/ (used for validation and troubleshooting)<br><br>
 
