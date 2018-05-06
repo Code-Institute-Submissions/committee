@@ -1,4 +1,5 @@
 # committee
+![alt text](https://github.com/sadfaerie/committee/blob/master/images/project.png)
 
 A band tribute project.
 Visitors should be able to:
