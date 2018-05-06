@@ -42,7 +42,7 @@ iPhone 5SE, iOS 10<br>
 - css @media property was used extensively to achieve consistens layout when displaying the project on various devices<br>
 <br>
 - removed .hover for sliders as it was causing problems on touch devices
-<code>
+<p><code>
     // slider for lyrics
     // hide .lyrics elements
     $(".slideToggle").hide('slow');
@@ -51,7 +51,7 @@ iPhone 5SE, iOS 10<br>
     // toggle child elements of current object
     $(this).parent().children(".slideToggle").slideToggle();
     });
-  </code>
+  </code></p>
 
 <br><br>
 
