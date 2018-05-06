@@ -10,11 +10,6 @@ $(function() {
       $(this).stop(true).fadeTo(300, .8);
     });
 
-    // parralax
-    $(function() {
-       $.stellar();
-    });
-
     // slider for lyrics
     // hide .lyrics elements
     $(".lyrics").hide('slow');
