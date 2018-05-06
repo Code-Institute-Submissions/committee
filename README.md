@@ -22,13 +22,12 @@ All photos, songs and lyrics are property of The Committee, and can be found her
 
 
 <h2>Technologies used:</h2>
-HTML/HTML5<br>
-CSS, Bootstrap<br>
-JS/JQuery<br>
+HTML<br>
+CSS<br>
+JS<br>
 
 <h2>Testing:</h2>
-Testing was done using Apache2 server running on Linux Mint.<br>
-Devices used: desktop devices: 13", 15", 21"<br>
+Devices used: desktop monitors: 13", 15", 21"<br>
 Touch devices: <br>
 Xiaomi MI, Android 7.1.2<br>
 iPad mini 2, iOS 11.3<br>
@@ -41,7 +40,20 @@ iPhone 5SE, iOS 10<br>
   }</code>
 <br>
 - css @media property was used extensively to achieve consistens layout when displaying the project on various devices<br>
+<br>
+- removed .hover for sliders as it was causing problems on touch devices
+<code>
+    // slider for lyrics
+    // hide .lyrics elements
+    $(".slideToggle").hide('slow');
+    // $(".slider").hover(function() { -- changing to click, due to hover issues on touch devices
+    $(".slider").hover(function() {
+    // toggle child elements of current object
+    $(this).parent().children(".slideToggle").slideToggle();
+    });
+  </code>
 
+<br><br>
 
 <h2>Credits:</h2>
 https://codeinstitute.net<br>
