@@ -1,6 +1,6 @@
 # committee
 ![alt text](https://github.com/sadfaerie/committee/blob/master/images/project.png)
-
+https://sadfaerie.github.io/committee/<br><br>
 <h1>A band tribute project.</h1>
 
 <h2>The Purpose:</h2>
