@@ -31,6 +31,7 @@
   color: #fff;
 }
 
+/* https://css-tricks.com/touch-devices-not-judged-size/ */ 
 @media (hover: none) {
   .hlight:hover .imgborder {
     transform: scale(1.2);
