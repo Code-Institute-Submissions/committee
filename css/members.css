@@ -31,7 +31,7 @@
   color: #fff;
 }
 
-@media (hover:hover) {
+@media (hover: none) {
   .hlight:hover .imgborder {
     /* opacity: 1; */
     transform: scale(1.2);
