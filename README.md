@@ -34,6 +34,13 @@ iPad mini 2, iOS 11.3<br>
 Google Pixel 1, Android 8.1.0<br>
 iPhone 5SE, iOS 10<br>
 <br>
+Browsers: <br>
+Google Chrome: <br>
+Safari: <br>
+IE: <br>
+Firefox: <br>
+<br>
+<br>
 - :hover used to highlight band members photos proved unusable on touch devices, and was addressed by adding: <br>
   <code>@media (hover:hover) {
   .................
@@ -52,6 +59,10 @@ iPhone 5SE, iOS 10<br>
     $(this).parent().children(".slideToggle").slideToggle();
     });
   </code></p>
+<br>
+
+
+
 
 <br><br>
 
