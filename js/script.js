@@ -23,7 +23,7 @@ $(function() {
     // hide .lyrics elements
     $(".slideToggle").hide('slow');
     // $(".slider").hover(function() { -- changing to click, due to hover issues on touch devices
-    $(".slider").hover(function() {
+    $(".slider").click(function() {
     // toggle child elements of current object
     $(this).parent().children(".slideToggle").slideToggle();
     });
