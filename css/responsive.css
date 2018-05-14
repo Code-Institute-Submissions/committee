@@ -52,7 +52,11 @@
     display: none !important;
   }
   .smscreen {
+<<<<<<< HEAD
     display: block !important;
+=======
+    display: inline-block !important;
+>>>>>>> b5064a22d5b3cdb31e4435778114b89ada79b3d0
   }
 }
 
@@ -112,6 +116,10 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5064a22d5b3cdb31e4435778114b89ada79b3d0
 @media (max-width: 823px) and (max-height: 411px){
   .captionlg {
     display: none;
@@ -143,6 +151,12 @@
   .carousel-header {
     font-size: 2em;
   }
+<<<<<<< HEAD
+=======
+  /* .carousel-header h3 {
+    font-size: 3em ;
+  } */
+>>>>>>> b5064a22d5b3cdb31e4435778114b89ada79b3d0
   .carousel-caption {
     top: 15%;
     font-size: 2em;

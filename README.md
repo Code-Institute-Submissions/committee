@@ -26,6 +26,7 @@ HTML<br>
 CSS<br>
 JS<br>
 
+<<<<<<< HEAD
 <h2>Testing:</h2>
 Devices used: desktop monitors: 13", 15", 21"<br>
 Touch devices: <br>
@@ -63,6 +64,8 @@ Firefox: <br>
 
 
 
+=======
+>>>>>>> b5064a22d5b3cdb31e4435778114b89ada79b3d0
 
 <br><br>
 
