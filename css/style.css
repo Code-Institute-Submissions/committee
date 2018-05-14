@@ -105,7 +105,6 @@ a .fa {
 }
 
 #live a {
-<<<<<<< HEAD
   color: #920c0b !important;
   text-decoration: none;
 }
@@ -118,10 +117,6 @@ iframe {
    left: auto;
    height: 500px;
    width: 100%;
-=======
-    color: #920c0b !important;
-    text-decoration: none;
->>>>>>> b5064a22d5b3cdb31e4435778114b89ada79b3d0
 }
 /* #home button */
 #homeBtn {
