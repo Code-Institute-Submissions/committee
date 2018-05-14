@@ -1,0 +1,81 @@
+header {
+  background-color: #000;
+  background-position: top 0px right 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  top: 0px;
+  z-index: 1000;
+}
+
+main {
+  top: 50px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.navbar {
+  border-radius: 0px;
+  background-color: #000;
+  border-color: #000;
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  width: 100%;
+  background-color: #000;
+  z-index: 1000;
+  border-color: #000 !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  color: #fff;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+
+.navbar-toggle {
+  padding: 6px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #840d0c;
+}
+
+.navbar-default ul li {
+  font-family: "Encient";
+  font-size: 1.8em;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #840d0c !important;
+}
+
+.fadeElem {
+  opacity:0.6;
+  color: #fff !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #840d0c !important;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #000 !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #840d0c !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #000 !important;
+}

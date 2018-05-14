@@ -1,0 +1,32 @@
+#members .col-sm-3 h3 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#members img {
+  width: 95%;
+  height: 95%;
+}
+#members img:first-child {
+  width: 90%;
+  height: 90%;
+}
+
+.imgborder {
+  border: 5px solid black;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+}
+
+.collapse.in {
+  text-align: center;
+  font-size: 2rem;
+  animation-name: textAnimation;
+}
+
+.slideToggle h3,h4,p {
+  color: #fff;
+}

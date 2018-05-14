@@ -1,0 +1,154 @@
+@media screen and (max-width: 1024px){
+  nav {
+    width: 100%;
+  }
+	ul {
+		flex-flow: column;
+		align-items:center;
+	}
+	li {
+		font-size: 1em;
+	}
+  h2 {
+    font-size: 3em;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+    background-color: #8bc1d0 !important;
+    text-align: left;
+    font-size: 1em !important;
+  }
+  .carousel-inner img {
+    width: 100%;
+  }
+  .carousel-header {
+    font-size: 4em;
+  }
+  .carousel-header h3 {
+    font-size: 3em ;
+  }
+  .carousel-caption {
+    top:15%;
+  }
+  .carousel-caption h3 {
+    font-size: 2em;
+  }
+  .padded-small {
+    padding: 0 10% 10% 15%;
+  }
+  #members .col-sm-3 h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 1366px){
+  .carousel-caption {
+    top: 12%;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .lgscreen {
+    display: none !important;
+  }
+  .smscreen {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .navbar-brand {
+    display:none;
+  }
+  .carousel-header {
+    font-size: 3em;
+  }
+  .carousel-header h3 {
+    font-size: 3em ;
+  }
+  .carousel-caption {
+    top: 10%;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5em;
+  }
+  #members .col-sm-3 h3 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 415px){
+  .carousel-header {
+    font-size: 2em;
+  }
+  .carousel-header h3 {
+    font-size: 2em ;
+  }
+  .carousel-caption {
+    top:15%;
+    font-size: 1.8em;
+  }
+  .carousel-caption h3 {
+    font-size: 1.8em;
+  }
+  .seal {
+    padding: 20px 0px 60px 0px !important;
+    width: 60% !important;
+    float: none !important;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  .carousel-caption {
+    top: 5%;
+    padding-top: 0px;
+  }
+  .captionlg {
+    display: none;
+  }
+  .captionsm {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 823px) and (max-height: 411px){
+  .captionlg {
+    display: none;
+  }
+  .captionsm {
+    display: inline-block;
+  }
+  .carousel-header {
+    font-size: 3em;
+  }
+  .carousel-header h3 {
+    font-size: 3em ;
+  }
+  .carousel-caption {
+    top: 5%;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 667px) and (max-height: 375px){
+  .captionlg {
+    display: inline-block;
+  }
+  .captionsm {
+    display: none;
+  }
+  .carousel-header {
+    font-size: 2em;
+  }
+  .carousel-caption {
+    top: 15%;
+    font-size: 2em;
+  }
+  .carousel-caption h3 {
+    top: 15%;
+    font-size: 2em;
+  }
+}
