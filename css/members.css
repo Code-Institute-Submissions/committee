@@ -30,10 +30,3 @@
 .slideToggle h3,h4,p {
   color: #fff;
 }
-
-/* https://css-tricks.com/touch-devices-not-judged-size/ */ 
-@media (hover: none) {
-  .hlight:hover .imgborder {
-    transform: scale(1.2);
-    box-shadow: 0 0 5px #920c0b, 0 0 10px #920c0b, 0 0 15px #920c0b, 0 0 20px #920c0b, 0 0 25px #920c0b;
-}
