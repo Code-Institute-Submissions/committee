@@ -26,43 +26,6 @@ HTML<br>
 CSS<br>
 JS<br>
 
-<h2>Testing:</h2>
-Devices used: desktop monitors: 13", 15", 21"<br>
-Touch devices: <br>
-Xiaomi MI, Android 7.1.2<br>
-iPad mini 2, iOS 11.3<br>
-Google Pixel 1, Android 8.1.0<br>
-iPhone 5SE, iOS 10<br>
-<br>
-Browsers: <br>
-Google Chrome: <br>
-Safari: <br>
-IE: <br>
-Firefox: <br>
-<br>
-<br>
-- :hover used to highlight band members photos proved unusable on touch devices, and was addressed by adding: <br>
-  <code>@media (hover:hover) {
-  .................
-  }</code>
-<br>
-- css @media property was used extensively to achieve consistens layout when displaying the project on various devices<br>
-<br>
-- removed .hover for sliders as it was causing problems on touch devices
-<p><code>
-    // slider for lyrics
-    // hide .lyrics elements
-    $(".slideToggle").hide('slow');
-    // $(".slider").hover(function() { -- changing to click, due to hover issues on touch devices
-    $(".slider").hover(function() {
-    // toggle child elements of current object
-    $(this).parent().children(".slideToggle").slideToggle();
-    });
-  </code></p>
-<br>
-
-
-
 
 <br><br>
 
