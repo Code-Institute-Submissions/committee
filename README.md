@@ -7,7 +7,8 @@ https://sadfaerie.github.io/committee/<br><br>
 
 <p>Build a static (front-end only) website for a band: The Committee. <br>
 The design is to match the band image: dark, gloom and raw. <br>
-The band's fans listen to metal music and prefer dark themes.<br></p>
+The band's fans listen to metal music and prefer dark themes.<br>
+</p>
 
 <p>Visitors should be able to:
 <ul>
@@ -16,40 +17,44 @@ The band's fans listen to metal music and prefer dark themes.<br></p>
   <li>watch music videos </li>
   <li>get information about future events</li>
   <li>contact the band via contact form and via links to social media sites.</li>
-  </ul><br>
-  </p>
+</ul><br>
+</p>
 
 
 <p>Prior to using the imagery, I have obtained written permission from The Committee - band.<br>
-All photos, songs and lyrics are property of The Committee, and can be found here: http://thecommitteeband.weebly.com<br></p>
-
+All photos, songs and lyrics are property of The Committee, and can be found here: http://thecommitteeband.weebly.com
+</p>
+<br>
 
 <h2>Technologies used:</h2>
-<p>HTML<br>
-CSS<br>
-JS<br>
+<p><ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+  </ul>
 </p>
-<br><br>
+<br>
 
 <h2>Testing:</h2>
-Devices used: 
+<h3>Devices used:</h3> 
 <ul>
   <li>desktop monitors: 13", 15", 21"</li>
-  </ul><br>
-Touch devices: <br>
+</ul><br>
+<h3>Touch devices:</h3>
 <ul>
   <li>Xiaomi MI, Android 7.1.2</li>
   <li>iPad mini 2, iOS 11.3</li>
   <li>Google Pixel 1, Android 8.1.0</li>
   <li>iPhone 5SE, iOS 10</li>
-  </ul>
+</ul>
 <br>
-Browsers: <br>
+<h3>Browsers:</h3>
 <ul>
   <li>Google Chrome</li>
   <li>Safari</li>
   <li>IE</li>
   <li>Firefox</li>
+</ul>
 <br>
 <br>
 - :hover used to highlight band members photos proved unusable on touch devices, and was addressed by adding: <br>
@@ -71,10 +76,11 @@ Browsers: <br>
     });
   </code></p>
 <br><br>
+  
 <h2>Validators:</h2>
 
 
-<br><br>
+<br>
 
 <h2>Credits:</h2>
 https://codeinstitute.net<br>
