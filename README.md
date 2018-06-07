@@ -36,7 +36,7 @@ All photos, songs and lyrics are property of The Committee, and can be found her
 <br>
 
 <h2>Testing:</h2>
-<h3>Devices used:</h3> 
+<h3>Devices used:</h3>
 <ul>
   <li>desktop monitors: 13", 15", 21"</li>
 </ul><br>
@@ -76,9 +76,10 @@ All photos, songs and lyrics are property of The Committee, and can be found her
     });
   </code></p>
 <br><br>
-  
-<h2>Validators:</h2>
 
+<h2>Validators:</h2>
+https://validator.w3.org/i18n-checker/ - passed
+https://validator.w3.org/nu/ - passed
 
 <br>
 
@@ -88,4 +89,3 @@ https://sitepoint.com (JQuery tutorials: fade and parallax.js)<br>
 https://www.w3schools.com (Less tutorial)<br>
 https://stackoverflow.com (used during testing to troubleshoot encountered problems)<br>
 https://validator.w3.org/ (used for validation and troubleshooting)<br><br>
-
