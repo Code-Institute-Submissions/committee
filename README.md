@@ -78,8 +78,8 @@ All photos, songs and lyrics are property of The Committee, and can be found her
 <br><br>
 
 <h2>Validators:</h2>
-https://validator.w3.org/i18n-checker/ - passed
-https://validator.w3.org/nu/ - passed
+https://validator.w3.org/i18n-checker/ - passed<br>
+https://validator.w3.org/nu/ - passed<br>
 
 <br>
 
