@@ -7,7 +7,7 @@ https://sadfaerie.github.io/committee/<br><br>
 
 <p>Build a static (front-end only) website for a band: The Committee. <br>
 The design is to match the band image: dark, gloom and raw. <br>
-The band's fans listen to metal music and prefer dark themes.</p>
+The band's fans listen to metal music and prefer dark themes.<br></p>
 
 <p>Visitors should be able to:
 <ul>
@@ -16,32 +16,40 @@ The band's fans listen to metal music and prefer dark themes.</p>
   <li>watch music videos </li>
   <li>get information about future events</li>
   <li>contact the band via contact form and via links to social media sites.</li>
-  </ul></p>
+  </ul><br>
+  </p>
 
 
-<p>Prior to using the imagery, I have obtained written permission from The Committee - band. 
-All photos, songs and lyrics are property of The Committee, and can be found here: http://thecommitteeband.weebly.com</p>
+<p>Prior to using the imagery, I have obtained written permission from The Committee - band.<br>
+All photos, songs and lyrics are property of The Committee, and can be found here: http://thecommitteeband.weebly.com<br></p>
 
 
 <h2>Technologies used:</h2>
-HTML<br>
+<p>HTML<br>
 CSS<br>
 JS<br>
-
+</p>
+<br><br>
 
 <h2>Testing:</h2>
-Devices used: desktop monitors: 13", 15", 21"<br>
+Devices used: 
+<ul>
+  <li>desktop monitors: 13", 15", 21"</li>
+  </ul><br>
 Touch devices: <br>
-Xiaomi MI, Android 7.1.2<br>
-iPad mini 2, iOS 11.3<br>
-Google Pixel 1, Android 8.1.0<br>
-iPhone 5SE, iOS 10<br>
+<ul>
+  <li>Xiaomi MI, Android 7.1.2</li>
+  <li>iPad mini 2, iOS 11.3</li>
+  <li>Google Pixel 1, Android 8.1.0</li>
+  <li>iPhone 5SE, iOS 10</li>
+  </ul>
 <br>
 Browsers: <br>
-Google Chrome: <br>
-Safari: <br>
-IE: <br>
-Firefox: <br>
+<ul>
+  <li>Google Chrome</li>
+  <li>Safari</li>
+  <li>IE</li>
+  <li>Firefox</li>
 <br>
 <br>
 - :hover used to highlight band members photos proved unusable on touch devices, and was addressed by adding: <br>
@@ -62,8 +70,8 @@ Firefox: <br>
     $(this).parent().children(".slideToggle").slideToggle();
     });
   </code></p>
-<br>
-
+<br><br>
+<h2>Validators:</h2>
 
 
 <br><br>
