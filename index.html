@@ -342,7 +342,7 @@
         <form id="contactform" action="#" method="post">
         <h2>Message</h2>
         <fieldset><input placeholder="Your name..." type="text" required></fieldset>
-        <fieldset><input placeholder="Your e-mail Address..." type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2-63}$" required></fieldset>
+        <fieldset><input placeholder="Your e-mail Address..." type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" title="Please use a valid email address, e.g user@domain.com" required></fieldset>
         <fieldset><textarea placeholder="Your Message..." required></textarea></fieldset>
         <fieldset><button name="submit" type="submit" id="submit" data-submit="send">Submit</button></fieldset>
         </form>
