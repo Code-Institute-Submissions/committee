@@ -5,16 +5,18 @@ https://sadfaerie.github.io/committee/<br><br>
 
 <h2>The Purpose:</h2>
 
-<p>Build a static (front-end only) website for a band: The Committee. 
-The design is to match the band image: dark, gloom and raw. 
+<p>Build a static (front-end only) website for a band: The Committee. <br>
+The design is to match the band image: dark, gloom and raw. <br>
 The band's fans listen to metal music and prefer dark themes.</p>
 
 <p>Visitors should be able to:
-- get information about the band and its members
-- listen to audio files
-- watch music videos 
-- get information about future events
-- contact the band via contact form and via links to social media sites. </p>
+<ul>
+  <li>get information about the band and its members</li>
+  <li>listen to audio files</li>
+  <li>watch music videos </li>
+  <li>get information about future events</li>
+  <li>contact the band via contact form and via links to social media sites.</li>
+  </ul></p>
 
 
 <p>Prior to using the imagery, I have obtained written permission from The Committee - band. 
